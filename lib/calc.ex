@@ -6,3 +6,5 @@ defmodule Calc do
   @spec multiply(number, number) :: {number, String.t}
   def multiply(x, y), do: {x * y, "is the product!"}
 end
+
+# consider refactoring with a struct: http://elixir-lang.org/getting-started/structs.html
